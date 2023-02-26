@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .button_icon {
+    @apply bg-purple-500 w-72 text-sm h-8 rounded-sm shadow-xl text-white flex items-center gap-1 justify-center font-semibold md:w-96 md:h-12 md:text-base hover:scale-105 duration-150;
+  }
+}
