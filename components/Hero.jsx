@@ -9,9 +9,9 @@ function Hero() {
           <h1 className="font-bold text-2xl md:text-5xl">
             Sample text that can should attract customers to wesbite
           </h1>
-          <h3 className="font-semibold md:font-normal text-sm md:text-xl">
+          <h3 className="font-semibold md:font-normal text-sm md:text-xl text-black/70">
             After reading the big heading you should be orsdf very
-            tempted to buy a website from the company.
+            tempted to buy a website from the company that I designed on this url.
           </h3>
         </div>
         <div>
