@@ -7,16 +7,16 @@ function Hero() {
       <div className="flex flex-col items-center gap-4">
         <div className="text-center flex flex-col gap-1 w-[92vw] md:w-[650px]">
           <h1 className="font-bold text-2xl md:text-5xl">
-            Sample text that can should attract customers to wesbite
+            Personalized websites is only a few minutes away!
           </h1>
           <h3 className="font-semibold md:font-normal text-sm md:text-xl text-black/70">
-            After reading the big heading you should be orsdf very
-            tempted to buy a website from the company that I designed on this url.
+            Want to reach out to more customers? Start marketing your website instead of 
+            your instagram or tiktok accounts!
           </h3>
         </div>
         <div>
           <button className="button_icon">
-            Our Story <GiBlackBook />
+            <a href="/contact" className="flex items-center gap-1">Get a website! <GiBlackBook /></a>
           </button>
         </div>
       </div>
